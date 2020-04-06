@@ -1,0 +1,19 @@
+[package]
+name = "opengl-learning"
+version = "0.1.0"
+authors = ["tylermaclachlan <tyler.maclachlan@mwrinfosecurity.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+render_gl_derive = { path = "render_gl_derive"}
+gl = { path = "lib/gl" }
+sdl2 = "0.33.0"
+failure = "0.1"
+vec-2-10-10-10 = "0.1.2"
+half = "1.1.1"
+nalgebra = "0.16"
+
+[build-dependencies]
+walkdir = "2.1"
